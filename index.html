@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Bootstrap Example</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/datepicker/bootstrap-datepicker.css">
+		<link rel="stylesheet" href="css/modal.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/bootstrap-datepicker.min.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+
+	<body>
+
+		<header class="container-fluid">			
+			<h3>Header Information</h3>
+		</header>
+		<div class="container-fluid">
+		  <div class="row content">		  	
+				<div class="col-sm-3 sidenav">
+		  			<h4 id="current-calendar">Menu title #1</h4>
+		      		<hr>
+				  	<div id="calendar"></div>
+		      		<hr>
+					<ul class="nav nav-pills nav-stacked" id="calendar_list">
+						<li class="active"><a href="#">Menu #1</a></li>
+						<li><a href="#">Menu #2</a></li>
+						<li><a href="#">Menu #3</a></li>
+						<li><a href="#">Menu #4</a></li>
+						<li><a href="#">Menu #5</a></li>
+					</ul>
+				</div>
+
+		    <div class="col-sm-9">
+		    	<div>
+					<button type="submit" class="btn btn-info">Refresh</button>
+					<button type="submit" class="btn btn-success">Send</button>
+				</div>
+				<hr>
+				<div class="event-card">				    
+		  			<div class="col-xs-1">
+				  		<span class="glyphicon glyphicon-user hidden-sm hidden-md hidden-lg"></span> <span class="hidden-xs"><strong>Name</strong></span>
+			  		</div>
+		  			<div class="col-xs-4">
+				  		<span>Chris AQ</span>
+			  		</div>
+		  			<div class="col-xs-1">
+				  		<span class="glyphicon glyphicon-phone hidden-sm hidden-md hidden-lg"></span> <span class="hidden-xs"><strong>Phone</strong></span>
+			  		</div>
+		  			<div class="col-xs-3">
+				  		<span>040673888</span>
+			  		</div>
+			  		<hr>
+					<div class="container-fluid">
+					  	<span><strong>Event Type</strong></span> <span>Cool Event</span>
+					</div>
+					<div class="container-fluid">
+					  	<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sit amet eleifend augue, vel condimentum erat. Etiam tincidunt purus eu libero tincidunt fermentum.</span>
+					</div>
+				</div>
+		    </div>
+		  </div>
+
+			<div id="fade"></div>
+	    	<div id="modal">
+	      		<i class="fa fa-spinner fa-spin" style="font-size:24px"></i>
+	    	</div>
+		</div>
+
+		<footer class="container-fluid">
+		  <p>Footer Text</p>
+		</footer>
+
+	</body>
+</html>
