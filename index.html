@@ -39,6 +39,11 @@
 				</div>
 			{{/cards}}
 		</script>
+		<script id="menu-template" type="text/template">			
+			{{#items}}				
+				<li id="{{id}}"><a href="#">{{name}}</a></li>
+			{{/items}}
+		</script>
 	</head>
 
 	<body>
@@ -58,11 +63,7 @@
 				  	<div id="calendar"></div>
 		      		<hr>
 					<ul class="nav nav-pills nav-stacked" id="calendar_list">
-						<li class="active" id="1"><a href="#">Menu #1</a></li>
-						<li id="2"><a href="#">Menu #2</a></li>
-						<li id="3"><a href="#">Menu #3</a></li>
-						<li id="4"><a href="#">Menu #4</a></li>
-						<li id="5"><a href="#">Menu #5</a></li>
+						<li id="{{id}}"><a href="#">{{name}}</a></li>
 					</ul>
 				</div>
 

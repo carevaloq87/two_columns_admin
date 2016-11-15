@@ -1,7 +1,7 @@
 var selected_date = get_current_date();
 var selected_menu = "";
 $(function() {
-	selected_menu = $("#calendar_list li")[0].id;
+	get_menu();
 	init_calendar();
 	click_calendars();
 	get_events();
@@ -67,6 +67,28 @@ function render_cards(cards) {
     template = $("#messages-template").html();
 
 	var html = Mustache.to_html(template, cards);
+
+	$(targetContainer).html(html);
+}
+
+function get_menu(){
+	show_loader();  	
+  	var data_url = "menu-data.txt";
+  	$.post( data_url, {})
+	  .done(function( data ) {
+	    var items = JSON.parse(data);	    
+    	render_menu(items);
+		selected_menu = $("#calendar_list li")[0].id;
+		$("#calendar_list li").first().addClass("active");		
+	  });
+	hide_loader();
+}
+
+function render_menu(items){
+	var targetContainer = $("#calendar_list"),
+    template = $("#menu-template").html();
+
+	var html = Mustache.to_html(template, items);
 
 	$(targetContainer).html(html);
 }
