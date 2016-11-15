@@ -4,7 +4,6 @@ $(function() {
 	get_menu();
 	init_calendar();
 	click_calendars();
-	get_events();
 	hide_loader();
 });
 
@@ -79,7 +78,8 @@ function get_menu(){
 	    var items = JSON.parse(data);	    
     	render_menu(items);
 		selected_menu = $("#calendar_list li")[0].id;
-		$("#calendar_list li").first().addClass("active");		
+		$("#calendar_list li").first().addClass("active");
+		get_events();
 	  });
 	hide_loader();
 }
