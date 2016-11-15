@@ -1,30 +1,37 @@
 { "cards" : [   	  
       { "name" : "-",
         "mobile" : "0406738858",
+        "type" : "cool",
         "message" : "Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake "
       },
       { "name" : "Christian Arevalo",
         "mobile" : "0406738858",
+        "type" : "Boring",
         "message" : "Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake "
       },
       { "name" : "-",
         "mobile" : "0406738858",
+        "type" : "cool",
         "message" : "Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake "
       },
       { "name" : "Caro Pena",
         "mobile" : "0406738858",
+        "type" : "awesome",
         "message" : "Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake "
       },
       { "name" : "Christian Arevalo",
         "mobile" : "0406738858",
+        "type" : "cool",
         "message" : "Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake "
       },
       { "name" : "-",
         "mobile" : "0406738858",
+        "type" : "cool",
         "message" : "Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake "
       },
       { "name" : "Caro Pena",
         "mobile" : "0406738858",
+        "type" : "cool",
         "message" : "Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake Strawberry Shortcake "
       }
 	] 
