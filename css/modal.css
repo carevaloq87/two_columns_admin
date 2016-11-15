@@ -1,6 +1,5 @@
 
-#fade {
-    display: none;
+#fade {    
     position:absolute;
     top: 0%;
     left: 0%;
@@ -13,8 +12,7 @@
     filter: alpha(opacity=80);
 }
 
-#modal {
-    display: none;
+#modal {    
     position: absolute;
     top: 45%;
     left: 45%;
