@@ -17,12 +17,17 @@ header li a {
 header .active {
   background-color: #961b4b; }
 
-.event-card {
+.main-section hr {
+  margin-top: 10px; }
+.main-section .event-card {
   border: 1px solid #e3e3e3;
   background-color: #f5f5f5;
   border-radius: 3px;
   padding: 10px 2px;
   margin-bottom: 10px; }
+.main-section .top-buttons {
+  padding-top: 10px;
+  text-align: right; }
 
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
 .row.content {
@@ -32,17 +37,12 @@ header .active {
 .sidenav {
   background-color: #f5f5f5;
   height: 100%; }
-
-.top-buttons {
-  padding-top: 10px; }
-
-#calendar {
-  text-align: center; }
-  #calendar .datepicker {
-    display: inline-block; }
-
-#current-calendar {
-  text-align: center; }
+  .sidenav #current-calendar {
+    text-align: center; }
+  .sidenav #calendar {
+    text-align: center; }
+    .sidenav #calendar .datepicker {
+      display: inline-block; }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {

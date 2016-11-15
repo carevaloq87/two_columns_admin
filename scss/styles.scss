@@ -33,13 +33,25 @@ header {
       background-color: $wine;
   }
 }
+.main-section{
 
-.event-card{
-  border: 1px solid $dark_grey;
-  background-color: $grey;
-  border-radius: 3px;
-  padding: 10px 2px;
-  margin-bottom: 10px;
+  hr {
+    margin-top: 10px;
+  }
+
+  .event-card{
+    border: 1px solid $dark_grey;
+    background-color: $grey;
+    border-radius: 3px;
+    padding: 10px 2px;
+    margin-bottom: 10px;
+  }
+
+  .top-buttons{
+    padding-top: 10px;
+    text-align: right;
+  }
+
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
@@ -49,22 +61,19 @@ header {
 .sidenav {
   background-color: $grey;
   height: 100%;
-}
 
-.top-buttons{
-  padding-top: 10px;
-}
+  #current-calendar{
+    text-align: center;  
+  }
 
-#calendar {
-  text-align: center;
-  .datepicker {
-    display: inline-block;
+  #calendar {
+    text-align: center;
+    .datepicker {
+      display: inline-block;
+    }
   }
 }
 
-#current-calendar{
-  text-align: center;  
-}
 
 /* On small screens, set height to 'auto' for sidenav and grid */
 @media screen and (max-width: 767px) {

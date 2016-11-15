@@ -1,10 +1,10 @@
-
 var selected_date = get_current_date();
 var selected_menu = "";
 $(function() {
 	selected_menu = $("#calendar_list li")[0].id;
 	init_calendar();
 	click_calendars();
+	get_events();
 	hide_loader();
 });
 
